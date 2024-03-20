@@ -1,0 +1,24 @@
+Time complexity is a measure used in computer science to analyze algorithms based on the amount of time it takes for an algorithm to run as a function of the length of the input. It helps in understanding how the algorithm's runtime grows with the size of the input. It's a crucial aspect of algorithm analysis, especially when dealing with large data sets where efficiency matters.
+
+Notation:
+Big O Notation (O):
+Big O notation is used to describe the upper bound of an algorithm's time complexity.
+It provides an asymptotic upper bound for the growth rate of the runtime of an algorithm.
+It is represented as O(f(n)), where f(n) represents the upper bound function describing the worst-case behavior of the algorithm.
+Omega Notation (Ω):
+Omega notation is used to describe the lower bound of an algorithm's time complexity.
+It provides an asymptotic lower bound for the growth rate of the runtime of an algorithm.
+It is represented as Ω(f(n)), where f(n) represents the lower bound function describing the best-case behavior of the algorithm.
+Theta Notation (Θ):
+Theta notation is used to describe both upper and lower bounds of an algorithm's time complexity.
+It provides a tight bound on the growth rate of the runtime of an algorithm.
+It is represented as Θ(f(n)), where f(n) represents both upper and lower bounds, meaning the runtime of the algorithm grows at the same rate as f(n) in the worst and best-case scenarios.
+Little O Notation (o):
+Little O notation is used to describe the upper bound of an algorithm's time complexity, excluding the tight bound.
+It provides an upper bound that is not asymptotically tight.
+It is represented as o(f(n)), where f(n) represents a function that grows faster than the runtime of the algorithm.
+Little Omega Notation (ω):
+Little Omega notation is used to describe the lower bound of an algorithm's time complexity, excluding the tight bound.
+It provides a lower bound that is not asymptotically tight.
+It is represented as ω(f(n)), where f(n) represents a function that grows slower than the runtime of the algorithm.
+In summary, time complexity notation helps in understanding and comparing the efficiency of algorithms by providing insights into how their runtime scales with the input size. It is a crucial tool in algorithm design and analysis.
