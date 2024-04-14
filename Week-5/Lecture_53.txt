@@ -1,0 +1,26 @@
+A stack is a data structure that follows the Last-In-First-Out (LIFO) principle, where the last item added to the stack is the first one to be removed
+2
+3
+. This behavior is sometimes referred to as "most-recent" first. Java has a built-in Stack class, but it is not recommended for use due to its limited functionality compared to other data structures such as the Deque interface
+2
+.
+A stack can be implemented using an array or a linked list. In an array-based implementation, the top of the stack is represented by a variable that keeps track of the index of the last element added
+3
+. In a linked list-based implementation, a reference to the most recently inserted item is maintained, allowing for the addition and removal of items at the beginning of the list without affecting other elements
+1
+.
+Stacks have numerous applications, including arithmetic expression evaluation, function-call abstraction, and backtracking
+1
+. For example, in arithmetic expression evaluation, stacks can be used to parse infix expressions by pushing operands and popping them when an operator is encountered
+1
+. In function-call abstraction, stacks can be used to keep track of function calls and return addresses, allowing for the correct execution of nested function calls
+1
+.
+In Java, stacks can be implemented using the built-in Stack class or by writing a simple class that uses an ArrayList to store the elements
+2
+. When implementing a stack, it is important to ensure that all operations, such as push, pop, and peek, run in constant time O(1)
+3
+. This can be achieved by using an array or a linked list as the underlying data structure and ensuring that the top of the stack is easily accessible
+3
+.
+In summary, a stack is a data structure that follows the LIFO principle and can be implemented using an array or a linked list. Stacks have numerous applications, including arithmetic expression evaluation and function-call abstraction, and are an important concept in computer science.
