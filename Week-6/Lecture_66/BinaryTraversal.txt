@@ -1,0 +1,19 @@
+
+Binary tree traversal is the process of visiting all the nodes in a binary tree in a specific order. There are three primary methods for traversing a binary tree:
+
+1) Inorder Traversal:
+Visit the left subtree.
+Visit the root node.
+Visit the right subtree.
+In other words, for a binary search tree, this would visit the nodes in ascending order.
+2) Preorder Traversal:
+Visit the root node.
+Visit the left subtree.
+Visit the right subtree.
+This traversal is useful for creating a copy of the tree or when it's necessary to visit the root node before its children.
+3) Postorder Traversal:
+Visit the left subtree.
+Visit the right subtree.
+Visit the root node.
+This traversal is useful for deleting or freeing the nodes of the tree.
+These three traversal methods can be implemented recursively or iteratively. Each traversal algorithm has its specific use cases and can be applied depending on the problem requirements.
