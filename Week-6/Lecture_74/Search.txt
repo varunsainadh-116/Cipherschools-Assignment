@@ -1,0 +1,23 @@
+In a Binary Search Tree (BST), searching involves locating a particular value within the tree efficiently. Since BSTs are ordered data structures, they have a property that ensures that for any node, all values in its left subtree are less than the node's value, and all values in its right subtree are greater than the node's value. This property makes searching in BSTs very efficient.
+
+Here's how searching works in BSTs:
+
+1) Starting at the root:
+To search for a value in a BST, you begin at the root node.
+2) Comparing with the current node:
+If the value you are searching for matches the value of the current node, you have found the node containing the value, and the search is successful.
+If the value you are searching for is less than the value of the current node, you move to the left subtree.
+If the value you are searching for is greater than the value of the current node, you move to the right subtree.
+3) Repeat or terminate:
+If the value is found, the search terminates successfully.
+If you reach a leaf node (a node with no children) without finding the value, the search terminates unsuccessfully, indicating that the value is not present in the BST.
+Search in BSTs has an average-case time complexity of O(log n) for balanced trees, where n is the number of nodes in the tree. However, in the worst-case scenario, if the tree is unbalanced (essentially forming a linked list), the time complexity can degrade to O(n).
+
+Regarding the types of search in BSTs, they generally follow the traversal methods:
+
+1) Inorder Search:
+In an inorder search, you traverse the tree in the order of left, root, right. It means you start searching from the left subtree, then move to the root node, and finally to the right subtree.
+2) Preorder Search:
+Preorder search follows the order of root, left, right. You start searching from the root node, then move to the left subtree, and finally to the right subtree.
+3) Postorder Search:
+Postorder search follows the order of left, right, root. You start searching from the left subtree, then move to the right subtree, and finally to the root node.
